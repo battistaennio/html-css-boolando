@@ -18,6 +18,10 @@ header a{
     color: white;
 }
 
+main a{
+    color: black;
+}
+
 header{
     height: 50px;
     color: white;
@@ -54,14 +58,15 @@ header{
 /* regole main */
 .card{
     width: 33%;
-    margin-top: 10px;
-    /* debug */
-    min-height: 400px;
-    background-color: aquamarine;
+    margin-top: 40px;
 }
 
 .card img{
     width: 100%;
+}
+
+h5{
+    display: inline-block;
 }
 
 .prezzo-sconto{
