@@ -28,6 +28,7 @@ header{
 .container{
     width: 80%;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .box{
@@ -57,4 +58,17 @@ header{
     /* debug */
     min-height: 400px;
     background-color: aquamarine;
+}
+
+.card img{
+    width: 100%;
+}
+
+.prezzo-sconto{
+    color: red;
+    font-weight: 700;
+}
+
+.prezzo-standard{
+    text-decoration: line-through;
 }
