@@ -130,6 +130,12 @@ h5{
     background-color: white;
 }
 
+/* regole effetto hover su banner cuore */
+.banner-cuore i:hover{
+    color: red;
+    cursor: pointer;
+}
+
 /* regole footer */
 footer{
     height: 90px;
