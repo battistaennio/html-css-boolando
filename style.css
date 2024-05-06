@@ -14,7 +14,7 @@ a{
     text-decoration: none;
 }
 
-header a{
+header, footer a{
     color: white;
 }
 
@@ -76,4 +76,10 @@ h5{
 
 .prezzo-standard{
     text-decoration: line-through;
+}
+
+/* regole footer */
+footer{
+    background-color: rgb(26, 26, 26);
+    color: white;
 }
