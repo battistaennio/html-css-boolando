@@ -61,6 +61,7 @@ header span{
 .card{
     width: 33%;
     margin-top: 40px;
+    position: relative;
 }
 
 .card img{
@@ -78,6 +79,25 @@ h5{
 
 .prezzo-standard{
     text-decoration: line-through;
+}
+
+.banner-container{
+    position: absolute;
+    left: 0;
+    bottom: 15%;
+    color: white;
+}
+
+.banner{
+    padding: 3px 8px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
 }
 
 /* regole footer */
