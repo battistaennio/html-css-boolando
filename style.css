@@ -12,9 +12,6 @@
 
 a{
     text-decoration: none;
-}
-
-header, footer a{
     color: white;
 }
 
@@ -22,11 +19,16 @@ main a{
     color: black;
 }
 
+/* regole header */
 header{
     height: 50px;
     color: white;
     font-size: 13px;
     background-color: rgb(255, 105, 0);
+}
+
+header span{
+    padding-right: 5px;
 }
 
 .container{
@@ -52,7 +54,7 @@ header{
 }
 
 .icons i{
-    margin-left: 10px;
+    padding-left: 10px;
 }
 
 /* regole main */
@@ -80,6 +82,26 @@ h5{
 
 /* regole footer */
 footer{
+    margin-top: 40px;
+    height: 90px;
     background-color: rgb(26, 26, 26);
     color: white;
+    font-size: 15px;
+}
+
+footer h4{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.dettagli-azienda{
+    font-size: 13px;
+}
+
+.social{
+    text-align: center;
+}
+
+.social i{
+    padding: 3px;
 }
