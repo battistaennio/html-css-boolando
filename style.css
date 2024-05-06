@@ -73,6 +73,17 @@ header span{
     width: 100%;
 }
 
+.foto-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.card:hover .foto-hover{
+    display: inline-block;
+}
+
 h5{
     display: inline-block;
 }
