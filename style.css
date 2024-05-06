@@ -22,9 +22,14 @@ main a{
 /* regole header */
 header{
     height: 50px;
+    width: 100%;
     color: white;
     font-size: 13px;
     background-color: rgb(255, 105, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
 }
 
 header span{
