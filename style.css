@@ -4,19 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+}
+
 .flex{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-main a{
-    color: black;
 }
 
 /* regole header */
@@ -63,6 +58,10 @@ header span{
 }
 
 /* regole main */
+main{
+    margin: 50px 0;
+}
+
 .card{
     width: 33%;
     margin-top: 40px;
@@ -71,17 +70,6 @@ header span{
 
 .card img{
     width: 100%;
-}
-
-.foto-hover{
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
-}
-
-.card:hover .foto-hover{
-    display: inline-block;
 }
 
 h5{
@@ -118,7 +106,6 @@ h5{
 
 /* regole footer */
 footer{
-    margin-top: 40px;
     height: 90px;
     background-color: rgb(26, 26, 26);
     color: white;
@@ -134,10 +121,36 @@ footer h4{
     font-size: 13px;
 }
 
+.dettagli-azienda span{
+    margin-right: 7px;
+}
+
 .social{
     text-align: center;
 }
 
 .social i{
     padding: 3px;
+}
+
+/* regole link */
+a{
+    text-decoration: none;
+    color: white;
+}
+
+main a{
+    color: black;
+}
+
+/* regole effetto hover su card */
+.foto-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.card:hover .foto-hover{
+    display: inline-block;
 }
